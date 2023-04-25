@@ -190,7 +190,7 @@ input {
 }
 
 .euro {
-    font-weight: 700;
+    font-weight: 600;
 }
 /* ajout du tiret "-" pour que la classe fonctionne sur l' étoile blanche */
 .neutral-star{
@@ -206,6 +206,7 @@ input {
 }
 
 .hebergements-and-populaires {
+
     display: flex;
     justify-content: space-between;    
 }
@@ -213,7 +214,7 @@ input {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 40px 30px 0 40px;
     box-sizing: border-box;
 }
 
@@ -273,7 +274,6 @@ input {
     margin-top: 30px;
     font-size: 18px;
     font-weight: bold;
-    
 }
 
 /****** Populaires ***********/
@@ -289,9 +289,7 @@ input {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
-    
-       
+    margin-top: 33px;      
 }
 
 .populaires-cards img {
@@ -325,9 +323,14 @@ input {
 
 /****** Activités à Marseille ***********/
 
+#navactivitemarseille {
+    margin-left: 30px;
+}
+
 .activitesmarseillecardflex {
+    margin: 0 10px 0 10px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-around;  
 }
 
 .activitecard {
