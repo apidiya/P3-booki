@@ -359,33 +359,34 @@ input {
 
 .footer {
     background-color: #F2F2F2;
+    height: 163px;
+    margin-top: 65px;
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
-    padding-left: 20px;  
 }
-    
+
 .footer section {
-    margin-right: 30px;
+    margin-right: 200px;
+    margin-left: 20px
 }
 
 .footer ul {
     display: flex;
     flex-direction: column;
-    padding: 0 250px 15px 0;
-    margin-bottom: 0px;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 25px;
 }
-
-.footer li {
-    padding-bottom: 15px;
-}
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .footer section {
+        margin-right: 40px;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
