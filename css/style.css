@@ -135,7 +135,8 @@ input {
     align-items: center;
     gap: 15px;
     margin-top: 35px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    margin-left: 5px; 
 }
 
 .filtresborder {
@@ -312,7 +313,7 @@ input {
     margin-left: 30px;
 }
 
-.activitesmarseillecardflex {
+.activitesmarseille-card-flex {
     margin: 0 10px 0 10px;
     display: flex;
     justify-content: space-around;  
@@ -324,9 +325,10 @@ input {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
     width: 22%;
+    margin-left: 5px;
 }
 
-.activitesmarseillecardflex img {
+.activitecard img {
     width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
@@ -334,14 +336,10 @@ input {
     max-width: 300px;
 } 
 
-.activitesmarseillecardflex .card-content {
-    box-sizing: border-box;
-    padding-left: 15px;    
+.activitecard h3 {
+    margin-left: 19px;
+    font-size: 16px;
 }
-
- .activitecard {
-    margin-left: 5px;
- }
 
 /* Footer */
 .footer {
