@@ -310,7 +310,8 @@ input {
 /* Activités à Marseille */
 
 #navactivitemarseille {
-    margin-left: 30px;
+    margin-left: 41px;
+    margin-top: 60px;
 }
 
 .activitesmarseille-card-flex {
@@ -325,7 +326,7 @@ input {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
     width: 22%;
-    margin-left: 5px;
+    margin: 0 20px 0 31px;
 }
 
 .activitecard img {
