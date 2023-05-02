@@ -399,14 +399,11 @@ input {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
-        
+        width: 100%;   
     }
 
     .populaires-cards .card {
         max-width: 225px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .populaires-cards .card-title {
