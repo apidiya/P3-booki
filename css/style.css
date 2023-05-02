@@ -246,12 +246,12 @@ input {
     width: 100%   
 }
 
-.hebergements-cards p {
+.hebergements-cards .card-subtitle {
     margin-top: -8px;
     margin-bottom: 8px;
 }
 
-.hebergements-cards h3 {
+.hebergements-cards .card-title {
     margin-top: 4px;
 }
 
@@ -343,26 +343,46 @@ input {
 }
 
 /* Footer */
-.footer {
+.background-footer {
     background-color: #F2F2F2;
     height: 163px;
     margin-top: 65px;
+}
+
+.footer-row {
     display: flex;
-    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 35px;
 }
 
-.footer section {
-    margin-right: 200px;
-    margin-left: 20px
-}
-
-.footer ul {
+.footer-row ul {
     display: flex;
     flex-direction: column;
+    margin: 0;
     padding: 0;
-    margin-bottom: 0;
-    line-height: 25px;
 }
+
+.footer-row h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+    line-height: 30px;  
+}
+
+.footer-row li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+    color: inherit;
+    
+}
+
+.footer-box {
+    min-width: 30%;
+    margin-right: 45px;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
