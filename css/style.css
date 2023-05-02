@@ -353,6 +353,8 @@ input {
     display: flex;
     padding-top: 20px;
     padding-left: 35px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .footer-row ul {
@@ -367,15 +369,6 @@ input {
     font-size: 16px;
     margin: 0;
     line-height: 30px;  
-}
-
-.footer-row li a {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-    list-style: none;
-    color: inherit;
-    
 }
 
 .footer-box {
