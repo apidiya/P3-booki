@@ -382,10 +382,6 @@ input {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .footer section {
-        margin-right: 40px;
-    }
-    
     .hebergements-and-populaires {
         flex-direction: column;
     }
