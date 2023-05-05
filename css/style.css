@@ -136,25 +136,30 @@ input {
     gap: 15px;
     margin-top: 35px;
     margin-bottom: 20px; 
-    margin-left: 5px; 
+    
 }
 
-.filtresborder {
+.filtres h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.filtres-border {
     display: flex;
     height: 49px;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     border: 2px solid #d9d9d9;
     border-radius: 30px; 
     font-weight: 700;    
 }
 
 .filtres div :hover {
-   background-color: #DEEBFF;
-}
+    background-color: #DEEBFF;
+ }
 
 /* information */
 .info {
@@ -166,7 +171,7 @@ input {
 
 .circle {
         border: solid 2px #d9d9d9;
-        padding: 7px 12px;
+        padding: 13px 12px;
         border-radius: 200px    
 }
 
@@ -241,7 +246,7 @@ input {
 }
 
 .hebergements-cards img {
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
     height: 100px;
     width: 100%   
 }
@@ -281,8 +286,8 @@ input {
 .populaires-cards img {
     width: 33%;
     height: 134px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .populaires-cards .card-content {
