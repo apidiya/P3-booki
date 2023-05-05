@@ -157,7 +157,7 @@ input {
     font-weight: 700;    
 }
 
-.filtres div :hover {
+.filtres a:hover {
     background-color: #DEEBFF;
  }
 
